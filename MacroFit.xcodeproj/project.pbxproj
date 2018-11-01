@@ -127,6 +127,7 @@
 		E0DEDBA42167620D0040BC52 /* PaymentErrorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DEDBA32167620D0040BC52 /* PaymentErrorViewController.swift */; };
 		EE58D5EE218AE3C2000BA31B /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE58D5ED218AE3C2000BA31B /* ProfileViewController.swift */; };
 		EE58D5F0218AF930000BA31B /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE58D5EF218AF930000BA31B /* Setting.storyboard */; };
+		EE58D5F2218B2EBD000BA31B /* PasswordchangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE58D5F1218B2EBD000BA31B /* PasswordchangeViewController.swift */; };
 		EEC2EE392189BBF200B9D85F /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC2EE382189BBF200B9D85F /* Settings.swift */; };
 		EEC2EE3B2189C07D00B9D85F /* SettingProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC2EE3A2189C07D00B9D85F /* SettingProfileTableViewCell.swift */; };
 		EEC2EE432189DCB500B9D85F /* cardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC2EE422189DCB500B9D85F /* cardView.swift */; };
@@ -280,6 +281,7 @@
 		E0DEDBA32167620D0040BC52 /* PaymentErrorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentErrorViewController.swift; sourceTree = "<group>"; };
 		EE58D5ED218AE3C2000BA31B /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		EE58D5EF218AF930000BA31B /* Setting.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Setting.storyboard; sourceTree = "<group>"; };
+		EE58D5F1218B2EBD000BA31B /* PasswordchangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordchangeViewController.swift; sourceTree = "<group>"; };
 		EEC2EE382189BBF200B9D85F /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		EEC2EE3A2189C07D00B9D85F /* SettingProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingProfileTableViewCell.swift; sourceTree = "<group>"; };
 		EEC2EE422189DCB500B9D85F /* cardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardView.swift; sourceTree = "<group>"; };
@@ -399,6 +401,7 @@
 				E06762892159020600D19202 /* DietaryPreferencesViewController.swift */,
 				EEC2EE382189BBF200B9D85F /* Settings.swift */,
 				EE58D5ED218AE3C2000BA31B /* ProfileViewController.swift */,
+				EE58D5F1218B2EBD000BA31B /* PasswordchangeViewController.swift */,
 			);
 			path = Settings;
 			sourceTree = "<group>";
@@ -963,6 +966,7 @@
 				E05F91962177413D001AF01D /* RecipeTableViewController.swift in Sources */,
 				E0DEDBA42167620D0040BC52 /* PaymentErrorViewController.swift in Sources */,
 				E0A6DD55214F718D00B6C301 /* MacroFit.xcdatamodeld in Sources */,
+				EE58D5F2218B2EBD000BA31B /* PasswordchangeViewController.swift in Sources */,
 				E0A792132153812800CBBFDB /* NetworkingConstants.swift in Sources */,
 				E0C009A1217600E400926904 /* SideMenuFormTableViewController.swift in Sources */,
 				E0DC73FC215B93300085551E /* MealsViewController.swift in Sources */,
