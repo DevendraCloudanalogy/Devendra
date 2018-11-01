@@ -27,8 +27,6 @@ class Settings: UIViewController,UITableViewDelegate,UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        print("table view cell")
-       
             let cell = tableView.dequeueReusableCell(withIdentifier: "SettingProfileTableViewCell", for: indexPath) as! SettingProfileTableViewCell
             cell.separatorInset = UIEdgeInsets.zero;
             cell.layoutMargins = UIEdgeInsets.zero;
@@ -50,12 +48,7 @@ class Settings: UIViewController,UITableViewDelegate,UITableViewDataSource {
         {
             let storyBoard:UIStoryboard = UIStoryboard(name: "Setting", bundle: nil)
             let nextVC = storyBoard.instantiateViewController(withIdentifier: "ProfileViewController") as! ProfileViewController
-            
-//            nextVC.editTaskStatus = (timeLineTableData[indexPath.row].task.subject)!
-//            nextVC.editDiscription = (timeLineTableData[indexPath.row].task.Description)!
-//            nextVC.objectType = "Task"
-//            nextVC.objectId = timeLineTableData[indexPath.row].task.Id!
-//
+        
             self.navigationController?.pushViewController(nextVC, animated: true)
             
         }
