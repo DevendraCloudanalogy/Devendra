@@ -2,7 +2,7 @@
 //  PasswordchangeViewController.swift
 //  MacroFit
 //
-//  Created by devendra kumar on 01/11/18.
+//  Created by devendra kumar Rai on 01/11/18.
 //  Copyright © 2018 Chandresh Singh. All rights reserved.
 //
 
